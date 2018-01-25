@@ -1,0 +1,20 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: $sidebar-width;
+  height: 100%;
+  padding-bottom: 1.875rem;
+  background-color: $sidebar-background-color;
+  overflow: auto;
+  border-right: 1px solid $grey-200;
+
+  &__brand {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 1.875rem;
+    vertical-align: middle;
+    font-size: 1.1rem;
+  }
+}

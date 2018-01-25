@@ -1,0 +1,16 @@
+.droparea {
+  padding-bottom: 1.875rem;
+
+  &__title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    color: $droparea-title-color;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  &__block {
+    padding: 0 1.875rem 1.875rem;
+  }
+}

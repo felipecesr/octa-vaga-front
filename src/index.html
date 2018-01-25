@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Octadesk</title>
+</head>
+<body>
+  <aside class="sidebar">
+    <h1 class="sidebar__brand">Toolbox</h1>
+
+    <div class="droparea">
+      <h2 class="droparea__title">Button</h2>
+      <div class="droparea__block divider">
+        <button id="cp-btn" class="btn btn--success">ok</button>
+      </div>
+
+      <h2 class="droparea__title">Checkbox</h2>
+      <div class="droparea__block divider">
+        <form id="cp-check">
+          <label class="check"><input type="checkbox" name="checkblock" checked> Option 1</label>
+          <label class="check"><input type="checkbox" name="checkblock"> Option 2</label>
+        </form>
+      </div>
+
+      <h2 class="droparea__title">Input Text</h2>
+      <div class="droparea__block divider">
+        <input id="cp-input" type="text" class="form-control">
+      </div>
+    </div>
+
+  </aside>
+
+  <main class="content">
+    <nav class="navbar">
+      <ul>
+        <li>
+          <button id="btn-export" class="btn btn--primary">Exportar</button>
+        </li>
+      </ul>
+    </nav>
+  </main>
+
+  <div class="modal">
+    <button class="btn-close">✖</button>
+    <div class="modal__content"></div>
+  </div>
+</body>
+</html>

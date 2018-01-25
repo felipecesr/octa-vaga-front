@@ -1,0 +1,45 @@
+.modal--active {
+  &:after {
+    content: '';
+    display: block;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    @include positions(0,0,0,0);
+  }
+
+  .modal {
+    display: block;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: none;
+  width: 100%;
+  max-width: 500px;
+  background-color: $white;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+
+  &__content {
+    position: relative;
+    padding: 1.875rem;
+  }
+
+  .btn-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    z-index: 2;
+  }
+
+  p {
+    margin-bottom: 8px;
+  }
+
+  .form-control {
+    margin-bottom: 15px;
+  }
+}

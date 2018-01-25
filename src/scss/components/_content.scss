@@ -1,0 +1,9 @@
+.content {
+  padding: 20px;
+  margin-left: $sidebar-width;
+  height: 100%;
+
+  &.over {
+    border: 2px dashed $content-border;
+  }
+}

@@ -3,12 +3,12 @@
 	Nesta etapa, você precisa desenvolver um **html designer** com base na imagem disponível e requisitos descritos.
 
 ## Cenário:
-	
+
 	O octadesk quer investir em um novo produto que possui uma demanda específica.
-	Durante a design sprint deste produto surgiu uma hipótese que precisa ser validada. 
+	Durante a design sprint deste produto surgiu uma hipótese que precisa ser validada.
 	Esta hipótese depende de um editor de html drag'n drop para que o usuário possa customizar sua página corporativa.
 	Nossa analista de UX criou um protótipo simples e precisamos validar a experiência do usuário proposta.
-	Com base no protótipo e nas funcionalidades mandatórias abaixo descritas, devemos criar um protótipo mais fiel e, 
+	Com base no protótipo e nas funcionalidades mandatórias abaixo descritas, devemos criar um protótipo mais fiel e,
 	principalmente, funcional.
 
 	Requisitos:
@@ -54,3 +54,17 @@
 	- Identidade visual do octadesk
 
 Boa sorte!
+
+# Teste
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run prod

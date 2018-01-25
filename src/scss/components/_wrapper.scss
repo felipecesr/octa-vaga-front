@@ -1,0 +1,13 @@
+.wrapper {
+  position: relative;
+  padding: 2.875rem;
+  margin-bottom: 1.25rem;
+  border: 1px dashed rgba($black,.125);
+  border-radius: .25rem;
+
+  .btn-close {
+    position: absolute;
+    top: .5rem;
+    right: .7rem;
+  }
+}

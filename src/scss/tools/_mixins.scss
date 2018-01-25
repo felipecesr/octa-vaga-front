@@ -1,0 +1,31 @@
+@mixin media($size) {
+  @if $size == small {
+    @media only screen and (min-width: $small) { @content; }
+  }
+  @else if $size == medium {
+    @media only screen and (min-width: $medium) { @content; }
+  }
+  @else if $size == large {
+    @media only screen and (min-width: $large) { @content; }
+  }
+}
+
+@mixin font-face($family, $weight, $path) {
+  @font-face {
+    font-family: $family;
+    font-weight: $weight;
+    src: url($path) format('woff2');
+  }
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin positions($top, $right, $bottom, $left) {
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
